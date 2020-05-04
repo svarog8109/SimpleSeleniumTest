@@ -6,7 +6,7 @@
     <test  name="SimpleTest">
 
         <classes>
-            <class name="com.practice.SimpleSeleniumTest"></class>
+            <class name="com.practice.GfiTest"></class>
         </classes>
         
     </test>
