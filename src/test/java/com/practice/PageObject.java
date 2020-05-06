@@ -22,6 +22,11 @@ public class PageObject {
     By searchButton=By.id("search-panel-submit");
     By searchHits=By.xpath("//*[text()=\'2 Treffer\']");
     By trefferLink=By.xpath("//*[@id=\"dummy-wrapper\"]/div/div[2]/div//a[contains(@href,'4370252')]");
+    By karriereLink=By.id("gf-panel-item0");
+    By festanstellungLi=By.xpath("//*[contains(text(),'Festanstellung')]");
+    By dualesLi= By.xpath(" //*[contains(text(),'Duales Studium / Ausbildung')]");
+    By initialBewerbungLi = By.xpath("//*[contains(text(),'Initiativbewerbung')]");
+    By studentischeMitLi = By.xpath("//*[contains(text(),'Studentische Mitarbeiter')]");
 
     public String getPhone() {
         String e = driver.findElement(phone).getText();
@@ -36,6 +41,9 @@ public class PageObject {
     public void getImpressumLink() {driver.findElement(impressumLink).click();}
 
     public void getDatenshutzLink() {driver.findElement(datenschutzLink).click();}
+
+    public void getKarriereLink() {driver.findElement(karriereLink).click();}
+
 
     public String getTitle() {
         String actualTitle = driver.getTitle();
@@ -56,6 +64,23 @@ public class PageObject {
     public void getSearchHits(){driver.findElement(searchHits).isDisplayed();}
     public void getLinkText()
     { driver.findElement(trefferLink).isDisplayed();
+
+    }
+
+    public void getFestanstellung() {
+        driver.findElement(festanstellungLi);
+
+    }
+    public void  getDualesLi() {
+         driver.findElement(dualesLi);
+
+    }
+    public void getInitialBewerbung() {
+        driver.findElement(initialBewerbungLi).getText();
+
+    }
+    public void  getStudentMa() {
+        driver.findElement(studentischeMitLi).getText();
 
     }
 

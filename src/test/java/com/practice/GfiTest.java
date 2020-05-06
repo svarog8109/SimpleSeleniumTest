@@ -56,6 +56,23 @@ public class GfiTest {
 
 
         driver.quit();
-    }
+
+                    }
+        @Test
+        public void test3(){
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\Andrei\\Documents\\Drv\\chromedriver_win32\\chromedriver.exe");
+            WebDriver driver = new ChromeDriver();
+            PageObject Pobject = new PageObject(driver);
+            driver.get("https://www.ihk-gfi.de/");
+
+            Pobject.getKarriereLink();
+            Pobject.getFestanstellung();
+            Pobject.getDualesLi();
+            Pobject.getStudentMa();
+            Pobject.getInitialBewerbung();
+
+
+
+        }
 
 }
