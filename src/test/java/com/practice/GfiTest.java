@@ -34,6 +34,7 @@ public class GfiTest {
         Assert.assertEquals(titleM, "Willkommen - IHK-GfI");
         String pGf3= Pobject.getPanelGf3();
         Assert.assertEquals(pGf3,"Über uns – lerne uns kennen");
+
         Pobject.getSearch();
 
         driver.quit();
@@ -69,7 +70,7 @@ public class GfiTest {
             Pobject.getDualesLi();
             Pobject.getStudentMa();
             Pobject.getInitialBewerbung();
-
+//veranderung
             driver.quit();
 
 

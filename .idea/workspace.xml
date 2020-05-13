@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18c0d7a4-e10d-410f-8366-7cc316278f57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/practice/GfiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/GfiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/practice/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/PageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/GfiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/GfiTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/PageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/PageObject.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+            <state relative-caret-position="476">
+              <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -33,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="136">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -42,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/GfiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+            <state relative-caret-position="347">
+              <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/PageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+            <state relative-caret-position="850">
+              <caret line="71" column="56" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#233#234#0" expanded="true" />
@@ -175,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Andrei/IdeaProjects/SeleniumTest/testng.xml">
+  <component name="RunManager" selected="TestNG.GfiTest.test3">
     <configuration name="RunMavenSeleniumTest" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -230,6 +227,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GfiTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.practice" />
+      <option name="MAIN_CLASS_NAME" value="com.practice.GfiTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GfiTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.practice" />
+      <option name="MAIN_CLASS_NAME" value="com.practice.GfiTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GfiTest.test3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTest" />
       <extension name="coverage">
@@ -253,12 +286,16 @@
       <item itemvalue="TestNG.C:/Users/Andrei/IdeaProjects/SeleniumTest/testng.xml" />
       <item itemvalue="TestNG.GfiTest" />
       <item itemvalue="TestNG.GfiTest.test3" />
+      <item itemvalue="TestNG.GfiTest.test1" />
+      <item itemvalue="TestNG.GfiTest.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GfiTest.test3" />
+        <item itemvalue="TestNG.GfiTest.test2" />
+        <item itemvalue="TestNG.GfiTest.test1" />
         <item itemvalue="TestNG.C:/Users/Andrei/IdeaProjects/SeleniumTest/testng.xml" />
         <item itemvalue="TestNG.GfiTest" />
-        <item itemvalue="TestNG.GfiTest.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -280,20 +317,11 @@
       <workItem from="1588580032720" duration="1204000" />
       <workItem from="1588672832820" duration="2659000" />
       <workItem from="1588757832547" duration="6638000" />
-      <workItem from="1589349038224" duration="227000" />
+      <workItem from="1589349038224" duration="5045000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Andrei_IdeaProjects_SeleniumTest_testng_xml - 2020.04.27 at 15h 52m 38s.xml">
-      <configuration name="C:/Users/Andrei/IdeaProjects/SeleniumTest/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Andrei_IdeaProjects_SeleniumTest_testng_xml - 2020.05.01 at 12h 20m 29s.xml">
-      <configuration name="C:/Users/Andrei/IdeaProjects/SeleniumTest/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GfiTest - 2020.05.04 at 10h 24m 23s.xml">
-      <configuration name="GfiTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="GfiTest_test3 - 2020.05.05 at 12h 12m 31s.xml">
       <configuration name="GfiTest.test3" configurationId="TestNG" />
     </history-entry>
@@ -309,9 +337,24 @@
     <history-entry file="C__Users_Andrei_IdeaProjects_SeleniumTest_testng_xml - 2020.05.06 at 12h 43m 42s.xml">
       <configuration name="C:/Users/Andrei/IdeaProjects/SeleniumTest/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_Andrei_IdeaProjects_SeleniumTest_testng_xml - 2020.05.13 at 07h 53m 05s.xml">
+      <configuration name="C:/Users/Andrei/IdeaProjects/SeleniumTest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Andrei_IdeaProjects_SeleniumTest_testng_xml - 2020.05.13 at 07h 54m 19s.xml">
+      <configuration name="C:/Users/Andrei/IdeaProjects/SeleniumTest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GfiTest_test1 - 2020.05.13 at 15h 06m 48s.xml">
+      <configuration name="GfiTest.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GfiTest_test2 - 2020.05.13 at 15h 21m 02s.xml">
+      <configuration name="GfiTest.test2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GfiTest_test3 - 2020.05.13 at 15h 32m 10s.xml">
+      <configuration name="GfiTest.test3" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18937000" />
+    <option name="totallyTimeSpent" value="23736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,7 +369,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -335,7 +378,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -363,17 +406,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/New_Test_Case2.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/New_Test_1.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/PageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+        <state relative-caret-position="850">
+          <caret line="71" column="56" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#233#234#0" expanded="true" />
@@ -382,17 +418,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="136">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/GfiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+        <state relative-caret-position="347">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

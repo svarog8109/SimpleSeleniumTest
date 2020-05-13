@@ -28,6 +28,7 @@ public class PageObject {
     By initialBewerbungLi = By.xpath("//*[contains(text(),'Initiativbewerbung')]");
     By studentischeMitLi = By.xpath("//*[contains(text(),'Studentische Mitarbeiter')]");
 
+
     public String getPhone() {
         String e = driver.findElement(phone).getText();
         return e;
