@@ -68,19 +68,19 @@ public class PageObject {
     }
 
     public void getFestanstellung() {
-        driver.findElement(festanstellungLi);
+        driver.findElement(festanstellungLi).isDisplayed();
 
     }
     public void  getDualesLi() {
-         driver.findElement(dualesLi);
+         driver.findElement(dualesLi).isDisplayed();
 
     }
     public void getInitialBewerbung() {
-        driver.findElement(initialBewerbungLi).getText();
+        driver.findElement(initialBewerbungLi).isDisplayed();
 
     }
     public void  getStudentMa() {
-        driver.findElement(studentischeMitLi).getText();
+        driver.findElement(studentischeMitLi).isDisplayed();
 
     }
 

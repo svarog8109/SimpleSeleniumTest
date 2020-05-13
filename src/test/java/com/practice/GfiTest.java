@@ -3,7 +3,6 @@ package com.practice;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
 public class GfiTest {
@@ -70,6 +69,8 @@ public class GfiTest {
             Pobject.getDualesLi();
             Pobject.getStudentMa();
             Pobject.getInitialBewerbung();
+
+            driver.quit();
 
 
 
